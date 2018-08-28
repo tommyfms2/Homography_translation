@@ -1,7 +1,6 @@
 
 
 PImage imgLenna;
-int[] dstX, dstY;
 
 int whichPointIsClicked = -1;
 Point[] src_points = new Point[4];
@@ -10,8 +9,6 @@ Point[] dst_points = new Point[4];
 void setup(){
   size(1000, 1000);
   
-  dstX = new int[4];
-  dstY = new int[4];
   
   dst_points[0] = new Point(  0,   0); // left up
   dst_points[1] = new Point(  0, 440); // left down
